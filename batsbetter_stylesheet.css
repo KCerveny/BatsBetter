@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Navbar Section */
+
+/* Introductory Image Section */
+#intro-image {
+    height: 100vw;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: black;
+}
+#footer-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+footer * {
+    color: white;
+}
