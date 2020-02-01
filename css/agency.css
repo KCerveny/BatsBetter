@@ -173,7 +173,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -685,9 +685,10 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("https://kingfisher.scene7.com/is/image/Kingfisher/5022976652200_04c");
+  background-image: url("https://otdmotors.co/wp-content/uploads/2018/10/wood-decorative-panel-laminate-wall-mounted-3d-textured-panels-diy-product.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 section#contact .section-heading {
   color: #fff;
@@ -708,9 +709,11 @@ section#contact .form-group input.form-control {
 section#contact .form-group textarea.form-control {
   height: 248px;
 }
-
-#contact .form-group *{
-  border: 2px solid #000;
+.bg-ch {
+  background-color: rgba(130,140,130,0.0);
+}
+.bg-contact {
+  background-color: rgba(230,240,230,0.9);
 }
 
 
