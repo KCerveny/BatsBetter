@@ -42,6 +42,14 @@
   // Beginning of BizPage Bootstap Elements
   //#######################################
 
+  new WOW().init();
+  // Skills section
+  $('#skills').waypoint(function() {
+    $('.progress .progress-bar').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, { offset: '80%'} );
+  
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,

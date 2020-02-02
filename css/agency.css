@@ -222,9 +222,40 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+/* Service Section */
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+#skills {
+  padding: 60px 0;
+}
+
+#skills .progress {
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+#skills .progress .skill {
+  font-family: "Open Sans", sans-serif;
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+
+#skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+#skills .progress-bar {
+  width: 1px;
+  text-align: left;
+  transition: .9s;
 }
 
 #portfolio .portfolio-item {
@@ -685,7 +716,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("https://otdmotors.co/wp-content/uploads/2018/10/wood-decorative-panel-laminate-wall-mounted-3d-textured-panels-diy-product.jpg");
+  background-image: url("../img/stainless-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -722,6 +753,10 @@ section#contact .form-group textarea.form-control {
 
 #contact {
   padding: 60px 0;
+}
+
+#contact .form-control {
+  border: 1px solid darkgray;
 }
 
 #contact .contact-info {
